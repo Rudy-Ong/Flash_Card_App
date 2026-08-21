@@ -278,16 +278,28 @@ body {
   word-break: break-word;
 }
 .card-back.has-details .face-text {
-  font-size: clamp(1.7rem, 6vw, 2.6rem);
+  flex: 0 0 42%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: clamp(2.2rem, 8vw, 3.8rem);
+}
+.face-romaji {
+  font-size: clamp(1.725rem, 6vw, 2.4rem);
+  font-weight: 600;
+  opacity: 0.85;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  word-break: break-word;
 }
 .face-meaning {
-  font-size: clamp(1.05rem, 3.6vw, 1.3rem);
+  font-size: clamp(1.575rem, 5.4vw, 1.95rem);
   font-weight: 600;
   opacity: 0.92;
   line-height: 1.35;
 }
 .face-example {
-  font-size: clamp(0.8rem, 2.8vw, 0.98rem);
+  font-size: clamp(1.2rem, 4.2vw, 1.47rem);
   font-weight: 500;
   font-style: italic;
   opacity: 0.82;

@@ -9,7 +9,7 @@ key). Cards are loaded from a plain `.csv` file, so you can study the built-in H
 
 1. Open `webapp/index.html` in your browser (double-click the file, or
    right-click → Open With → your browser).
-2. On the "Choose a deck" screen, optionally pick available deck **Hiragana**, **Katakana**, **Verbs**, **Adjectives**, or **Nouns**. 
+2. On the "Choose a deck" screen, optionally pick available deck **Hiragana**, **Katakana**, **Verbs**, **Adjectives**, or **Nouns**.
 3. Click **Start** (or press `Enter`).
 
 **Option B — run a local server (most reliable)**
@@ -45,8 +45,8 @@ anything descriptive.
 
 | Column                             | Required? | Shown as                                        |
 | ---------------------------------- | --------- | ----------------------------------------------- |
-| 1st (e.g. `Hiragana` / `Kanji`) | Yes       | Big text on the **front** of the card      |
-| 2nd (e.g. `Reading`)              | Yes       | Big text on the **back** of the card       |
+| 1st (e.g.`Hiragana` / `Kanji`) | Yes       | Big text on the**front** of the card      |
+| 2nd (e.g.`Reading`)              | Yes       | Big text on the**back** of the card       |
 | 3rd (`Meaning`)                  | Optional  | Smaller text below the reading, if present      |
 | 4th (`Example`)                  | Optional  | Small italic text below the meaning, if present |
 
